@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Dto" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Dto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:53456/Operation/ZipCode.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Enum" />
+  <xs:import schemaLocation="http://localhost:53456/Operation/ZipCode.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Entities.Operation" />
+  <xs:complexType name="ZipCodeRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CommonRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ZipCode" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ZipCodeRequest" nillable="true" type="tns:ZipCodeRequest" />
+  <xs:complexType name="CommonRequest">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Enum" minOccurs="0" name="SortedBy" nillable="true" type="q1:EnumProduct" />
+      <xs:element minOccurs="0" name="SupplierId" type="xs:int" />
+      <xs:element minOccurs="0" name="UserTicket" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CommonRequest" nillable="true" type="tns:CommonRequest" />
+  <xs:complexType name="Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsSuccess" type="xs:boolean" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Entities.Operation" minOccurs="0" name="ListResult" nillable="true" type="q2:ArrayOfFuelStationDetail" />
+      <xs:element minOccurs="0" name="NumberItems" type="xs:int" />
+      <xs:element minOccurs="0" name="StatusResponse" nillable="true" type="tns:StatusResponse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Response" nillable="true" type="tns:Response" />
+  <xs:complexType name="StatusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" type="xs:int" />
+      <xs:element minOccurs="0" name="Timestamp" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StatusResponse" nillable="true" type="tns:StatusResponse" />
+</xs:schema>

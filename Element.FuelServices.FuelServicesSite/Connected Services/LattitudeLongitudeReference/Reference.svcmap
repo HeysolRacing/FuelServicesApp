@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a651f92a-a69b-48d0-8652-0755d04606d3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53456/Operation/LattitudeLongitude.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LattitudeLongitude.xsd" MetadataType="Schema" ID="78bc105e-0764-4863-b28b-d65bd60d4edf" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?xsd=xsd1" />
+    <MetadataFile FileName="LattitudeLongitude.wsdl" MetadataType="Wsdl" ID="58c965df-f5ef-4470-8606-d54de5f4216b" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?wsdl" />
+    <MetadataFile FileName="LattitudeLongitude1.xsd" MetadataType="Schema" ID="61af1aaa-5bd9-4e1d-8247-131471fb0d9c" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?xsd=xsd4" />
+    <MetadataFile FileName="LattitudeLongitude2.xsd" MetadataType="Schema" ID="80d6b6b1-de87-4d86-802a-8f7b3d1f5e1d" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?xsd=xsd3" />
+    <MetadataFile FileName="LattitudeLongitude3.xsd" MetadataType="Schema" ID="fb27aca6-ec04-4158-8522-6a83baa94dea" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?xsd=xsd2" />
+    <MetadataFile FileName="LattitudeLongitude4.xsd" MetadataType="Schema" ID="9898f6b9-d441-4f15-b6e7-725e7068a075" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?xsd=xsd0" />
+    <MetadataFile FileName="LattitudeLongitude.disco" MetadataType="Disco" ID="2283b0c2-e6eb-4cc2-9e24-d017cfe32259" SourceId="1" SourceUrl="http://localhost:53456/Operation/LattitudeLongitude.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

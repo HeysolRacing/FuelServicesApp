@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d409f8a9-15dd-4f30-89d9-4c8d022da27e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53456/Operation/StationList.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StationList.disco" MetadataType="Disco" ID="9198f953-9fdd-498e-8121-6ef4e17a0139" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?disco" />
+    <MetadataFile FileName="StationList.xsd" MetadataType="Schema" ID="06c900be-08a8-4050-8e99-3c86a83c0c98" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?xsd=xsd2" />
+    <MetadataFile FileName="StationList1.xsd" MetadataType="Schema" ID="9a09d444-51ab-4086-b8a5-1dfcaf7fe5a0" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?xsd=xsd3" />
+    <MetadataFile FileName="StationList2.xsd" MetadataType="Schema" ID="8c258f04-36f3-46dc-890b-b9ae883b4a04" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?xsd=xsd0" />
+    <MetadataFile FileName="StationList3.xsd" MetadataType="Schema" ID="c4d32781-ded6-4090-8649-c323b72963b1" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?xsd=xsd1" />
+    <MetadataFile FileName="StationList4.xsd" MetadataType="Schema" ID="55413b91-a237-4716-ab7e-6dc752348ddd" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?xsd=xsd4" />
+    <MetadataFile FileName="StationList.wsdl" MetadataType="Wsdl" ID="cbe129c0-7482-461d-8294-91e1eebd80ac" SourceId="1" SourceUrl="http://localhost:53456/Operation/StationList.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

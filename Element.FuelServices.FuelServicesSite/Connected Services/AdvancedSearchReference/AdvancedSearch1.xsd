@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Enum" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Element.FuelServices.Shared.Enum" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="EnumProduct">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NotSpecified" />
+      <xs:enumeration value="Diesel" />
+      <xs:enumeration value="Magna" />
+      <xs:enumeration value="Premium" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EnumProduct" nillable="true" type="tns:EnumProduct" />
+</xs:schema>

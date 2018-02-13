@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fuel Services</title>
+    <link rel="icon" type="image/x-icon" href="~/Content/img/element-fleet.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    @Styles.Render("~/Content/css")
+
+    <style>
+        .footer-theme-black {
+            background-color: black;
+            color: lightgray;
+            text-align: center;
+            margin-top: -3%;
+        }
+
+        .fa.orange500 {
+            color: deepskyblue;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="~/Content/img/ElementReverseColour_RGB-PNG.png" alt="Element" style="width:auto;height:38px;margin-top:-10%;" /></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                        <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="layoutFleet" class="content" align="left" style="margin-left: 2%;">
+        <div class="container-fluid">
+            <div class="block-header">
+                @RenderBody()
+                <hr />
+            </div>
+        </div>
+    </section>
+
+    <hr />
+    <footer class="body-content footer-theme-black">
+
+        <div class="copyright">
+            &copy;<span>@DateTime.Now.Year </span> <a href="javascript:void(0);">Fuel Services.</a>
+        </div>
+        <div class="version">
+            <b>Version: </b> 1.0.0
+        </div>
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

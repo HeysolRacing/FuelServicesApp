@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="19460a10-2c6b-42b7-9911-34de61e2820b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53456/Operation/AdvancedSearch.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdvancedSearch.xsd" MetadataType="Schema" ID="fb7181fd-3635-4f28-bad7-5c29af038be0" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?xsd=xsd0" />
+    <MetadataFile FileName="AdvancedSearch.disco" MetadataType="Disco" ID="cd6dc860-1d8f-40e1-be8f-e6562f371a5c" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?disco" />
+    <MetadataFile FileName="AdvancedSearch1.xsd" MetadataType="Schema" ID="6ff6632b-10a4-41bc-8f65-a01e63874a2e" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?xsd=xsd3" />
+    <MetadataFile FileName="AdvancedSearch2.xsd" MetadataType="Schema" ID="b5ec4413-17f3-4545-a433-0e65c0130a1d" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?xsd=xsd1" />
+    <MetadataFile FileName="AdvancedSearch.wsdl" MetadataType="Wsdl" ID="2f969333-e03e-44de-9b4f-1451d38e5c7d" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?wsdl" />
+    <MetadataFile FileName="AdvancedSearch3.xsd" MetadataType="Schema" ID="b3582663-b654-4e05-ba42-5c6dcba6391b" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?xsd=xsd4" />
+    <MetadataFile FileName="AdvancedSearch4.xsd" MetadataType="Schema" ID="3c5f5a6a-f322-411e-bd70-9502dd2f32bf" SourceId="1" SourceUrl="http://localhost:53456/Operation/AdvancedSearch.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
